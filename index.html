@@ -16,7 +16,12 @@
             console.log(result);
         }
         sum(10, 20);
-
+        
+        const funcName1 = function (x, y)  {
+            const result = x + y;
+            console.log(result);
+        }
+        sum(10, 20);
 
        
        
@@ -25,7 +30,8 @@
             console.log(result);
         }
         calcNum(5 );
-        
+
+       
 
         const textAlert = function (name) {
             alert(`${name}`);
@@ -35,10 +41,11 @@
 
         
         function func1(bir, eki){
-            console.log(10 + 8);
+            console.log(bir + eki);
         }
         func1( 10, 8);
 
+        
 
         function text1 (number) {
             return number %5 !== 2 ? "четный" : "не четный"
@@ -65,18 +72,23 @@
         }
         matem();
 
+        const func = (baatir) => {
+            if (baatir >= 1 && baatir <= 20) {
+                console.log("1 киребериш");
+            } else if (baatir >= 21 && baatir <= 48) {
+                console.log("2 киребериш");
+            } else if (baatir >=49 && baatir <= 90) {
+                console.log("3 киребериш");
+            } else {
+                console.log("Андай баатир жок");
+            }
+        };
+        func(20);
 
-        
-        
 
-        function numberone(one, twu){
-            let resultat = 10;
-            console.log(one);
-            console.log(twu);
-        }
-        numberone("numberone", 555)
 
-    </script>
+
+</script>
     
 </body>
 </html>
